@@ -1,0 +1,12 @@
+.git
+.gitignore
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+venv-backup-*
+.lesson6-drive
+.tmp-install
+.env

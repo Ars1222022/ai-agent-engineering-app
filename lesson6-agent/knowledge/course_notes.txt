@@ -1,0 +1,3 @@
+AI-agenter kan anvanda tools for att utfora uppgifter.
+RAG anvands for att hamta relevant information fran externa dokument.
+MCP anvands for standardiserad kommunikation mellan AI-applikationer och verktyg.

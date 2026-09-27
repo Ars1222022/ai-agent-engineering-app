@@ -1,0 +1,14 @@
+services:
+  lesson6:
+    build: .
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      GROQ_MODEL: ${GROQ_MODEL:-}
+      LMSTUDIO_BASE_URL: ${LMSTUDIO_DOCKER_BASE_URL:-http://host.docker.internal:1234/v1}
+    stdin_open: true
+    tty: true
+    command: python lab_launcher.py

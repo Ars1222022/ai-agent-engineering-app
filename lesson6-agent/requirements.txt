@@ -1,0 +1,7 @@
+openai
+openai-agents
+pydantic
+pytest
+fastmcp
+requests
+python-dotenv
